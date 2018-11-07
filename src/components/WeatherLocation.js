@@ -8,7 +8,7 @@ export default class WeatherLocation extends Component {
     render(){
         return (
             <div>
-                <Location />
+                <Location city={'Talavera de la Reina'} />
                 <WeatherData />
             </div> 
         )

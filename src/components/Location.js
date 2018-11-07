@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Location = () => (
-    <div>
-        <h1> Talavera de la Reina </h1>
-    </div>
-)
+const Location = (props) => {
+    let { city } = props;
+    return (
+        <div>
+            <h1> { city } </h1>
+        </div>
+    );
+}
+
 
 export default Location;
